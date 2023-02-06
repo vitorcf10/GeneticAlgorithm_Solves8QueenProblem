@@ -1,0 +1,5 @@
+Genetic algorithm applies the concepts of Darwin's evolution theory and artificial intelligence in order to find solutions for optimization problems.
+- The algo creates the initial population formed by many 8-index array. The index 0 of each array represents the 'a' column from the chess board, index 1 the 'b' column and so on. The number stored in each index represents a line of that column where a queen is placed (a possible solution).
+- The GA relies on a fitness function for each individual(array) in the population. The better the fitness function for an array the closer it is from the optimum solution.
+- Individuals with good fitness are selected to generate the next population by the GA's operations: crossover, mutation and elitism.
+- Generation after generation the solutions get better and better until one of them reaches the optimum one.
